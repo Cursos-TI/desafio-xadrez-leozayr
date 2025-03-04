@@ -21,9 +21,9 @@ void movimentoRainha()
     printf("Rainha: Esquerda\n");
 }
 
-    //Utilização de 'void' para que o código seja mais legivel e simples.
+    //utilização de 'void' para que o código seja mais simples e legivel.
 
-int main() {
+int main () {
 
     movimentoTorre();
 
@@ -46,19 +46,23 @@ int main() {
 
     printf ("------------------\n");
 
-    for (int cavalo1 = 0, cavalo2 = 0 ; cavalo1 < 2, cavalo2 < 2; cavalo1++, cavalo2++)
+    for (int cavalo1 = 1 ; cavalo1 < 3; cavalo1++)
     {
-        if (cavalo1 == 2) continue;
-    
+        if (cavalo1 <= 3);
+        {
             printf ("Cavalo: Cima.\n");
-
+        
+        
+        if (cavalo1 >= 2)
+        
+            printf ("Cavalo: Direita.\n");
+        }
     }
-        printf ("Cavalo: Direita.\n");
-
+        
         printf ("------------------\n");
 
     return 0;
-    
-    //Código feito através de 'for' para prática pois é o recomendado.
 
+//Código feito através de 'for' para prática pois é o recomendado.
+    
 }
